@@ -4,4 +4,3 @@
 
 ## View Live 
 https://sasagugu.github.io/Simple-Encryption/
-[Preview](https://sasagugu.github.io/Simple-Encryption/)
