@@ -1,0 +1,105 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="There are some texts you may be sending to your friends or employees over the social media or online messaging platforms and you would like to keep them secret. This tool uses encryption algorithm based on ASCII value of data to allow you send the encrypted messages online.">
+    <meta name="Keywords" content="text encrypton, ascii encryption, simple encryption algorithm" />
+    <meta name="author" content="Saša Gugunović">
+    <title>Simple Encrypt text | Easiest and fastes way to encrypt your text</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="https://img.icons8.com/cotton/2x/lock.png" alt="lock">
+            <h1 class="logoText">Simple Encrypt</h1>
+        </div>
+        <div class="about">
+            <h2>Easiest and fastes way to encrypt your text. <br>
+                Protect your messages, emails, chat, notes etc.</h2><br><br>
+
+            <div class="col">
+                <p>
+                    <img src="https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Tick_Mark_Dark-512.png" alt="#" class="check"> Open Source <br>
+                    <img src="https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Tick_Mark_Dark-512.png" alt="#" class="check"> Nothing is stored on the server <br>
+                    <img src="https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Tick_Mark_Dark-512.png" alt="#" class="check"> Nothing is transmitted to the server <br>
+                    <img src="https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Tick_Mark_Dark-512.png" alt="#" class="check"> We can not read or log your password or message data <br>
+                    <img src="https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Tick_Mark_Dark-512.png" alt="#" class="check"> Encryption is made with Javascript locally in your browser <br>
+                </p>
+                <p>There are some texts you may be sending to your friends or employees over the social media or online messaging platforms and you would like to keep them secret. This tool uses encryption algorithm based on ASCII value of data to allow you send the encrypted messages online.</p>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="encrypt">
+            <h3 class="encryptSign">Encrypt</h3>
+            <input type="text" name="your-message" id="message" placeholder="Type here your message to encrypt"> <br>
+            <input type="password" name="your-message" id="encrypt-key" placeholder="Password"> <br>
+            <button name="your-message" onclick="encrypt()">Encrypt</button>
+            <p>Encrypted message:</p>
+            <h3 id="encrypted-message">Your encrypted message will appear here</h3>
+        </div>
+
+
+        <div class="decrypt">
+            <h3 class="decryptSign">Decrypt</h3>
+            <input type="text" name="decrypt-message" id="decrypt-message" placeholder="Paste here your encrypted message"> <br>
+            <input type="password" name="decrypt-key" id="decrypt-key" placeholder="Enter their password"> <br>
+            <button name="decrypt-message" onclick="decrypt()">Decrypt</button>
+            <p>Decrypted message: </p>
+            <h3 id="decrypted-message">Original message will appear here</h3>
+
+        </div>
+    </div>
+
+    <div class="instruction">
+        <p class="enc">
+            <span class="howto">
+                How to encrypt
+            </span> <br>
+            <span class="step">1. Enter your secret message in the form</span>  <br>
+           It is an easy process. You will start by typing or copying your message then paste it on the message input field. This tool allows you to write the text message on any language. <br><br>
+
+            <span class="step">2. Make password</span> <br>
+            Enter a password to encrypt your message. Please use long passwords. Your recipient must know this password so that it can decipher the message. Provide the password to other party via a safe communication channel. <br><br>
+
+            <span class="step">3. Click "Encrypt" button</span> <br>
+            The encrypted message will appear in symbols which nobody will read unless he uses the same tool to decrypt. <br><br>
+
+            <span class="step">4. Copy the encrypted message</span> <br>
+            The resulting content will be encrypted. In order to send your secret message, you can send the encrypted over the social media or even other less secure online messaging platforms after which you will send the password to the intended recipient. 
+            
+        </p>
+
+        <p class="dec">
+            <span class="howto">
+                How to decrypt
+            </span><br>
+
+             <span class="step">1. Paste your message to the message box</span>  <br>
+           After you receive the encrypted message, it is time to decrypt it and read the content. You will have to copy and paste it into the text provided. <br><br>
+
+            <span class="step">2. Enter the password</span> <br>
+            You must know the password of your sender. Only with the correct password you will be able to decrypt the message. Use the password to decrypt the message so that you can proceed and get the information.<br><br>
+
+            <span class="step">3. Click "Decrypt" button</span> <br>
+            <br>
+
+            <span class="step">4. Read the original message</span> <br>
+            
+        </p>
+    </div>
+
+    <p class="copyrights"><a href="">Open Source Project</a> 2019 | Created by <a href="https://sasagugunovic.com">Sasa Gugunovic</a></p>
+    
+
+</body>
+</html>
